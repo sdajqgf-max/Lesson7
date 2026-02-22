@@ -2,5 +2,6 @@
 // Написать функцию, которая разворачивает вложенные массивы в один
 
 const array = [1, [2, 3], [4], 5, [6, 7, 8]];
-
-const result = [1, 2, 3, 4, 5, 6, 7, 8];
+const result = array.flat();
+console.log(result);
+//const result = [1, 2, 3, 4, 5, 6, 7, 8];
