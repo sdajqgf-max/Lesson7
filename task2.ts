@@ -6,4 +6,6 @@ const word3 = "Кот";
 function checkPalindrome(word: string) {
   return word.toLowerCase().split("").reverse().join("") === word.toLowerCase();
 }
+console.log(checkPalindrome(word1));
+console.log(checkPalindrome(word2));
 console.log(checkPalindrome(word3));
